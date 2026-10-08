@@ -1,18 +1,18 @@
 <!-- ══════════════════════════════════════════════════════════════════════════════
      ABDELLAH HOUACINE — GitHub Profile
      AI Engineering Student · Kasdi Merbah University, Ouargla 🇩🇿
-     Portfolio → https://houacine-abdellah.github.io/
+     Portfolio → https://houacine-abdellah.github.io/houacine-abdellah/
      ══════════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<a href="https://houacine-abdellah.github.io/">
+<img src="./assets/profile.jpg" width="136" alt="Abdellah Houacine" />
+<a href="https://houacine-abdellah.github.io/houacine-abdellah/">
   <img src="./assets/portfolio-preview.jpg" width="900" alt="Abdellah Houacine — Portfolio" />
 </a>
 
 <br/><br/>
 
-<img src="./assets/profile.jpg" width="136" alt="Abdellah Houacine" />
 
 <h1>Abdellah Houacine</h1>
 
@@ -23,7 +23,7 @@
   <b>Kasdi Merbah University — Ouargla, Algeria</b> 🇩🇿
 </p>
 
-<a href="https://houacine-abdellah.github.io/">
+<a href="https://houacine-abdellah.github.io/houacine-abdellah/">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=1A6B44&center=true&vCenter=true&width=640&height=44&lines=AI+Engineering+Student;Machine+Learning+%C2%B7+Edge+LLMs;Agentic+Systems+%C2%B7+RAG;Fine-Tuning+%C2%B7+Applied+AI;Building+Algorim+%E2%80%94+a+new+language" alt="AI Engineering Student · Machine Learning · Edge LLMs · Agentic Systems · Fine-Tuning" />
 </a>
 
@@ -67,7 +67,7 @@ I also design **Algorim**, my own programming language — lexer, parser, interp
 <div dir="rtl" align="right">
 
 <p>
-<b>مرحباً 👋 أنا عبد الله حسين</b> — طالب هندسة ذكاء اصطناعي في <b>جامعة قاصدي مرباح، ورقلة</b> 🇩🇿
+<b>مرحباً 👋 أنا عبد الله حواسين</b> — طالب هندسة ذكاء اصطناعي في <b>جامعة قاصدي مرباح، ورقلة</b> 🇩🇿
 </p>
 <p>
 تخصصي هو <b>هندسة الذكاء الاصطناعي</b>: تعلم الآلة، النماذج اللغوية المحلية التي تعمل دون اتصال، والأنظمة الوكيلية. أعمل أيضاً على تطوير <b>لغة برمجة جديدة (Algorim)</b> ومنصات رقمية للجامعات الجزائرية.
@@ -119,9 +119,9 @@ I also design **Algorim**, my own programming language — lexer, parser, interp
 <p><b>لغة برمجة جديدة</b> &nbsp;·&nbsp; <code>IN PROGRESS</code></p>
 
 <p align="center">
-  <a href="https://houacine-abdellah.github.io/"><img src="./assets/projects/algorim-code.jpg" width="32%" alt="Algorim language" /></a>
-  <a href="https://houacine-abdellah.github.io/"><img src="./assets/projects/algorim-ide.jpg" width="32%" alt="Algorim IDE v1.0" /></a>
-  <a href="https://houacine-abdellah.github.io/"><img src="./assets/projects/algorim-studio.jpg" width="32%" alt="AlgorimStudio v2.0" /></a>
+  <a href="https://houacine-abdellah.github.io/houacine-abdellah/#projects"><img src="./assets/projects/algorim-code.jpg" width="32%" alt="Algorim language" /></a>
+  <a href="https://houacine-abdellah.github.io/houacine-abdellah/#projects"><img src="./assets/projects/algorim-ide.jpg" width="32%" alt="Algorim IDE v1.0" /></a>
+  <a href="https://houacine-abdellah.github.io/houacine-abdellah/#projects"><img src="./assets/projects/algorim-studio.jpg" width="32%" alt="AlgorimStudio v2.0" /></a>
 </p>
 
 A programming language I am building from scratch, with a readable pseudocode-style syntax (`Action`, `var`, `begin … end`, `←` assignment) that even supports **Arabic comments**.
@@ -187,7 +187,7 @@ A programming language I am building from scratch, with a readable pseudocode-st
 
 <div align="center">
 
-<a href="https://houacine-abdellah.github.io/">
+<a href="https://houacine-abdellah.github.io/houacine-abdellah/">
   <img src="https://img.shields.io/badge/%F0%9F%8C%90%20houacine--abdellah.github.io-OPEN%20PORTFOLIO-1A6B44?style=for-the-badge" alt="Open portfolio" />
 </a>
 
@@ -196,7 +196,7 @@ A programming language I am building from scratch, with a readable pseudocode-st
 Deployed automatically with <b>GitHub Actions</b> on every push.
 </p>
 
-<a href="https://houacine-abdellah.github.io/"><img src="./assets/portfolio-preview.jpg" width="820" alt="Portfolio preview" /></a>
+<a href="https://houacine-abdellah.github.io/houacine-abdellah/#projects"><img src="./assets/portfolio-preview.jpg" width="820" alt="Portfolio preview" /></a>
 
 </div>
 
