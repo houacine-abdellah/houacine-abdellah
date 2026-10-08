@@ -29,7 +29,7 @@
 
 <br/>
 
-<a href="https://houacine-abdellah.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-LIVE%20SITE-1A6B44?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+<a href="https://houacine-abdellah.github.io/houacine-abdellah/"><img src="https://img.shields.io/badge/PORTFOLIO-LIVE%20SITE-1A6B44?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
 <a href="https://www.linkedin.com/in/abdellah-houacine-151882393/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:Houacine.Abdellah.ai@gmail.com"><img src="https://img.shields.io/badge/EMAIL-CONTACT-B4462F?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
