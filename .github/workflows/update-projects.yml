@@ -1,0 +1,89 @@
+name: Update latest projects
+
+# Refreshes the "Recently updated repositories" block in README.md
+# (between the REPOS:START / REPOS:END comments) using the GitHub API.
+
+on:
+  schedule:
+    - cron: "0 4 * * 1" # every Monday at 04:00 UTC
+  workflow_dispatch:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Rewrite the projects block
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const path = 'README.md'
+            const login = context.repo.owner
+
+            // Most recently updated public repositories, profile repo excluded.
+            const { data: repos } = await github.rest.repos.listForUser({
+              username: login,
+              per_page: 100,
+              sort: 'updated',
+              type: 'owner'
+            })
+
+            const skip = new Set([login, `${login}.github.io`, 'dotfiles'])
+            const picks = repos
+              .filter(r => !r.fork && !r.archived && !skip.has(r.name))
+              .slice(0, 6)
+
+            if (!picks.length) {
+              core.notice('No repositories to list yet — skipping.')
+              return
+            }
+
+            const lines = picks.map(r => {
+              const desc = r.description ? r.description.trim() : 'No description yet'
+              const lang = r.language ? ` \`${r.language}\`` : ''
+              const stars = r.stargazers_count > 0 ? ` · ⭐ ${r.stargazers_count}` : ''
+              return `- **[${r.name}](${r.html_url})** — ${desc}${lang}${stars}`
+            })
+
+            const file = await github.rest.repos.getContent({ ...context.repo, path })
+            const readme = Buffer.from(file.data.content, 'base64').toString('utf8')
+
+            const block = [
+              '<!-- REPOS:START -->',
+              '<!-- This section is refreshed automatically by .github/workflows/update-projects.yml -->',
+              '',
+              '### 🆕 Recently updated repositories',
+              '',
+              ...lines,
+              '',
+              '<!-- REPOS:END -->'
+            ].join('\n')
+
+            const re = /<!-- REPOS:START -->[\s\S]*?<!-- REPOS:END -->/
+            if (!re.test(readme)) {
+              core.setFailed('REPOS:START / REPOS:END markers were not found in README.md')
+              return
+            }
+
+            const next = readme.replace(re, block)
+            if (next === readme) {
+              core.notice('README is already up to date.')
+              return
+            }
+
+            await github.rest.repos.createOrUpdateFileContents({
+              ...context.repo,
+              path,
+              message: 'chore(readme): refresh latest projects',
+              content: Buffer.from(next, 'utf8').toString('base64'),
+              sha: file.data.sha
+            })
+
+            core.notice(`Updated README.md with ${picks.length} repositories.`)
