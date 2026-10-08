@@ -6,10 +6,7 @@
 
 <div align="center">
 
-<img src="./assets/profile.jpg" width="136" alt="Abdellah Houacine" />
-<a href="https://houacine-abdellah.github.io/houacine-abdellah/">
-  <img src="./assets/portfolio-preview.jpg" width="900" alt="Abdellah Houacine — Portfolio" />
-</a>
+
 
 <br/><br/>
 
@@ -26,7 +23,10 @@
 <a href="https://houacine-abdellah.github.io/houacine-abdellah/">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=1A6B44&center=true&vCenter=true&width=640&height=44&lines=AI+Engineering+Student;Machine+Learning+%C2%B7+Edge+LLMs;Agentic+Systems+%C2%B7+RAG;Fine-Tuning+%C2%B7+Applied+AI;Building+Algorim+%E2%80%94+a+new+language" alt="AI Engineering Student · Machine Learning · Edge LLMs · Agentic Systems · Fine-Tuning" />
 </a>
-
+<img src="./assets/profile.jpg" width="136" alt="Abdellah Houacine" />
+<a href="https://houacine-abdellah.github.io/houacine-abdellah/">
+  <img src="./assets/portfolio-preview.jpg" width="900" alt="Abdellah Houacine — Portfolio" />
+</a>
 <br/>
 
 <a href="https://houacine-abdellah.github.io/houacine-abdellah/"><img src="https://img.shields.io/badge/PORTFOLIO-LIVE%20SITE-1A6B44?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
