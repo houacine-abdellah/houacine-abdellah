@@ -334,7 +334,11 @@ I am open to collaboration on **AI projects, research and student platforms** �
 
 ### 🆕 Recently updated repositories
 
-_Loading… run the **Update latest projects** workflow once to populate this list._
+- **[Daleel-](https://github.com/houacine-abdellah/Daleel-)** — An Algeria-focused guide project — daleel —   means “guide” in Arabic — with its own brand identity built around the map of the country.
+- **[Student-Portal](https://github.com/houacine-abdellah/Student-Portal)** — The new version of the digital student portal for Algerian universities — a full-stack mobile app with Arabic, French and English interfaces and sign-in through the official PROGRES API.
+- **[UniClub](https://github.com/houacine-abdellah/UniClub)** — A complete management platform for a tech club: create and run events and workshops with an advanced registration system and QR codes, track attendance, and showcase member projects.
+- **[Algorim](https://github.com/houacine-abdellah/Algorim)** — A programming language I am building from scratch, with a readable pseudocode-style syntax (`Action`, `var`, `begin … end`, `←` assignment) that even supports **Arabic comments**
+- **[GitUni](https://github.com/houacine-abdellah/GitUni)** — A shared workspace for Algerian students, teachers and researchers: publish university projects, share knowledge, keep a personal library and discover what the community is building.
 
 <!-- REPOS:END -->
 
